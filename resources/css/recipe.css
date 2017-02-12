@@ -1,0 +1,151 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+div.recipebody{
+	text-align: center;
+	position: absolute;
+	left:50%;
+	top: 10%;
+	width:700px;
+	height:100%;
+	margin: 0 0 0 -350px;
+}
+div.recipe{
+	text-align: center;
+	position: absolute;
+	top: 7%;
+	width:700px;
+	height:440px;
+	border: 5px solid #ffffe6;
+	border-radius: 3px;
+	background-color: rgba(0,0,0,0.20);
+}
+div.suggested {
+	position: absolute;		
+	display: inline-block;
+	width: 50%;
+	left: 0%;
+	float: left;
+	height: 100%;
+	border-right: 1px solid #ffffe6;
+}
+div.commentsection {
+	position: absolute;
+	display: inline-block;
+	float: right;
+	width: 50%;
+	height: 100%;
+	color: #ffffe6;
+}
+.bild {
+	width: 150px;
+}
+.logo {
+	width: 400px;
+}
+ul {
+  list-style-type: none;
+  width: 350px;
+}
+ 
+h3 {
+  font: bold 20px/1.5 "Exo", sans-serif;
+  color: #ffffe6;
+}
+ 
+li img {
+  float: left;
+  margin: 0 10px 0 0;
+  width: 100px;
+  height: 90px;
+}
+ 
+li p {
+  font: 250 13px/1.2 "Exo", sans-serif;
+  color:#ffffe6;
+}
+ 
+li {
+  padding: 10px;
+  overflow: auto;
+}
+ 
+li:hover {
+  background: #ffffe6;
+  cursor: pointer;
+}
+li:hover h3, li:hover p {
+	color:black;
+}
+
+.commentfront {
+	position: absolute;
+	display: inline-block;
+	left: 0%;
+	width: 100%;
+	height: 30%;
+	border-bottom: 1px solid #ffffe6;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+}
+.commentfront textarea {
+	width: 98%;
+	height: 96%;
+	background-color: transparent;
+	border: none;
+	font: 20px "Exo", sans-serif;
+	font-weight: 250;
+ 	color: #ffffe6;
+ 	resize: none;
+}
+.commentfront input[type=submit] {
+	position: absolute;
+	width: 50%;
+	height: 35px;
+	left: 0%;
+	top: 93%;
+	background: #ffffe6;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 3px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+.commentfront input[type=submit]#tabort {
+	left: 50%;
+	background-color: red;
+	border: red;
+	color:black;
+}
+.comment-commentsection {
+	position: absolute;
+	width: 100%;
+	top: 40%;
+	height: 60%;
+}
+.showcomment { 
+	width:97%;
+	bottom: 50%; 
+	border-top:1px solid #ccc; 
+	padding: 1%;
+	color:black;
+	background-color: rgba(255,255,255,0.2);
+}
+.showcomment h4 { 
+	color:#ffffe6; 
+	padding:0px; 
+	margin:0px;
+}
+.comment {
+	width:400px; 
+	height:100px;
+	outline:none;
+}
+.name { 
+	width:400px;
+	outline:none
+}
